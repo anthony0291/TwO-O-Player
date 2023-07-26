@@ -8,8 +8,14 @@ class Game
   end
 
   def start_game
-    puts "game starting"
+    puts "Racers start your engines!"
+  end
+
+  def round_increment! #exclamation for mutable
+    @current_round += 1
   end
 
   
+
+
 end
