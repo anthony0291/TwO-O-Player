@@ -1,10 +1,11 @@
 class Game
-  attr_accessor :current_round, :current_player
+  attr_accessor :current_round, :current_player, :answer
 
   def initialize 
     @current_player = nil
     @current_round = 0
     @players = []
+    @answer = nil
   end
 
   def start_game
