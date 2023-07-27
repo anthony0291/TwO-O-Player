@@ -8,7 +8,7 @@ class Question
   end
 
   def show_question
-    "What is #{@number_one} + #{@number_two}? "
+    puts "What is #{@number_one} + #{@number_two}? "
   end
 
   def get_answer
@@ -23,7 +23,7 @@ class Question
       puts "Good Job!"
     else
       puts "Sorry that's not right!"
-      
+
     end
   end
 end

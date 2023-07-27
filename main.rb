@@ -3,12 +3,11 @@ require './Player'
 require './Question'
 
 game = Game.new
-# game.start_game
+game.run_game
 
 
-player1 = Player.new('Alex')
-
-question = Question.new
-puts question.show_question
-puts question.get_answer
+# player1 = Player.new('Alex')
+# question = Question.new
+# puts question.show_question
+# puts question.get_answer
 
